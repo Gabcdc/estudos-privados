@@ -1,0 +1,101 @@
+body {
+    background-color:#f7f7f7 ;
+    margin:20px ;
+
+}   
+#Ativar{
+    display: block;
+    margin: 20px auto;
+}
+#modal {
+    padding: 30px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0 , 0 ,.1) ;
+    max-width: 400px;
+    margin: 20px auto;
+    opacity: 0;
+    transform: translateX(0px);
+}
+#modal h1{
+    font-family: sans-serif;
+    margin: 0px 0px 20px ;
+}
+#modal label {
+    display: block;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    margin-top: 10px; 
+}
+#modal input{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px ;
+    padding: .5rem;
+    font-size: 1rem;
+    background-color: #f7f7f7;
+}
+#modal button {
+    margin-top: 20px;
+    display: block;
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding: .6rem 2rem;
+    width: 418px;
+    border: none;
+    border-radius: 5px;
+    color: #402d00;
+    background-color: #ffb801;
+}
+
+#modal.Animar{
+   animation-name: slide ;
+   animation-duration: .3s;
+   animation-timing-function:ease ;
+   animation-delay: 0s;
+   animation-fill-mode: forwards;
+}
+@keyframes slide{
+from {
+   transform: translateX(-50px); 
+     opacity: 0; 
+
+}
+to{
+   opacity: 1; 
+}
+}
+#load{
+    width: 20px;
+    height: 20px;
+    border: 10px solid ;
+    border-radius: 50%;
+    border-top-color:transparent ;
+    margin: 0% auto;
+    color: #ffb801;
+    animation: load;
+    animation-duration: .6s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear ;
+    
+    
+}
+@keyframes load {
+    to{
+         transform: rotate(360deg); 
+    }
+}
+/* @keyframes loadframes {
+    0%{
+        transform: translate(0px) scale(.5);
+    }
+    25%{
+        transform: translate(200px);
+    }
+    50%{
+        transform: translate(200px, -200px);
+    }
+    75%{
+        transform: translate(0px, -200px);
+    }
+} */

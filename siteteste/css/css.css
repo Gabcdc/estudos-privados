@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+ .center {
+        max-width: 1100px;
+        padding: 0% 2%;
+        display: flex;
+        margin:0 auto;
+
+}
+header {
+    background-color: white;
+    padding: 20px 0px;
+    border-bottom: 2px solid rgb(200, 200 , 200);
+}
+.logo {
+    color: #16507b;
+}
+.logo h2 {
+    font-weight: normal ;
+    font-size: 22px;
+}
+.menu {
+    width: 100%;
+    text-align: right;
+    
+}
+.menu a {
+    color: #124265;
+     font-size: 14px;
+    text-decoration: none;
+    margin-right: 30px ;
+    transition: .5s;
+
+}
+.menu a:hover {
+    color:#007bff ;
+   
+}
+.menu .btn-menu{
+    background-color: #007bff;
+    display: inline-block;
+    padding: 6px 16px ;
+    color: white;
+    border-radius: 6px ;
+
+}
+.menu .btn-menu:hover {
+    background-color: #124265;
+}
+/* section main */
+
+
+section .main {
+background-image: url(../img/pexels-matheus-viana-2414036.jpg);
+min-height: 500px;
+background-position: center;
+background-size: cover;
+ background-attachment: fixed;
+
+}

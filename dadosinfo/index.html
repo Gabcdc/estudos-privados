@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login java escript</title>
+</head>
+<body>
+    <form>
+        <h3>Login</h3>
+        <input type="text" placeholder="Login" id="Login">
+        <input type="password" placeholder="Senha" id="Senha">
+        <input type="submit" value="Enviar" onclick="logar(); return false">
+
+    </form>
+    <script>
+        function logar(){
+            var login = window.document.getElementById('Login')
+            var senha = window.document.getElementById('Senha')
+
+            if (String(login.value) == "" && String(senha.value) == ""){
+                
+                window.alert('ocorreu eum erro tente novamente')
+            }
+            else {
+                location.href = "home.html"
+            }
+        }
+    </script>
+</body>
+</html> 
