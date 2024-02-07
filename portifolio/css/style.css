@@ -385,3 +385,22 @@ footer .flex {
     justify-content: space-between;
 
 }
+
+footer .line-footer {
+    padding: 20px 0px  ;
+    
+}
+.borda {
+    border-top:solid 2px  #00ff08;
+}
+footer .line-footer p i {
+    color:#00ff08;
+    font-size: 22px ;
+    
+}
+footer .line-footer p a{
+    color:#fff;
+    text-decoration: none;
+    
+
+}
